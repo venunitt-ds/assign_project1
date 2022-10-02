@@ -7,3 +7,6 @@ print("List elements: ", numList)
 newList = np.sort(numList)
 
 print("New sorted list: ", newList)
+
+numList.reverse()
+print("Revised list: ", numList)
